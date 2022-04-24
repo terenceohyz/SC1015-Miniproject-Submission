@@ -12,7 +12,7 @@ This is a Mini-Project for SC1015  which focuses on netflix & the price of diffe
 
 - Terence Oh - K-Nearest Neighbours, Data Cleaning, Slides- K-Nearest Neighbours, Intro, Conclusion, Data Cleaning
 - Donna Chua - Population Denstiy, Library Size, Slides- K-Nearest Neighbours, Population Denstiy, Library Size, GDP
-- Chin Kian Hwee - Linear Regression, GDP Slides- Linear Regression, Conclusion
+- Chin Kian Hwee - Linear Regression, GDP, Slides- Linear Regression, Conclusion
 
 ## Problems
 
