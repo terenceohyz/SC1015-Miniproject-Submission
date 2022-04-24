@@ -8,18 +8,18 @@ This is a Mini-Project for SC1015  which focuses on netflix & the price of diffe
 4. [Regression](https://github.com/terenceohyz/SC1015-Miniproject-Submission/blob/main/Codes/KNearestNeighbour.ipynb)
 5. [K-Nearest Neighbours](https://github.com/terenceohyz/SC1015-Miniproject-Submission/blob/main/Codes/Regression.ipynb)
   
-## Contributors
+## Contributions
 
 - Terence Oh - K-Nearest Neighbours, Data Cleaning, Slides- K-Nearest Neighbours, Intro, Conclusion, Data Cleaning
 - Donna Chua - Population Denstiy, Library Size, Slides- K-Nearest Neighbours, Population Denstiy, Library Size, GDP
 - Chin Kian Hwee - Linear Regression, GDP Slides- Linear Regression, Conclusion
 
-## Problem Definition
+## Problems
 
 - How are the prices of various Netflix subscriptions determined in a country?
 - Are we able to predict the prices with just GDP & Population Density?
 
-## Models Used
+## Machine Learning
 
 1. Linear Regression
 2. K-Nearest Neighbours Regression
