@@ -3,21 +3,21 @@
 
 This is a Mini-Project for SC1015  which focuses on netflix & the price of difference subscription prices in different countries:
 
-1. [Data Cleaning](https://github.com/nicklimmm/movie-analysis/blob/main/data-extraction.ipynb)
-2. [Data Exploration](https://github.com/nicklimmm/movie-analysis/blob/main/data-visualization.ipynb)
-4. [Regression](https://github.com/nicklimmm/movie-analysis/blob/main/logistic-regression.ipynb)
-5. [K-Nearest Neighbours](https://github.com/nicklimmm/movie-analysis/blob/main/neural-network.ipynb)
+1. [Data Cleaning](https://github.com/terenceohyz/SC1015-Miniproject-Submission/blob/main/Codes/Datacleaning.ipynb)
+2. [Data Exploration](https://github.com/terenceohyz/SC1015-Miniproject-Submission/tree/main/Codes)
+4. [Regression](https://github.com/terenceohyz/SC1015-Miniproject-Submission/blob/main/Codes/KNearestNeighbour.ipynb)
+5. [K-Nearest Neighbours](https://github.com/terenceohyz/SC1015-Miniproject-Submission/blob/main/Codes/Regression.ipynb)
   
 ## Contributors
 
-- @nicklimmm - Neural Networks, Data Resampling, Data Extraction
-- @TCaken - Logistic Regression
-- @coolcoolwhat - Data Visualization, Data Extraction
+- Terence Oh - K-Nearest Neighbours, Data Cleaning, Slides- K-Nearest Neighbours, Intro, Conclusion, Data Cleaning
+- Donna Chua - Population Denstiy, Library Size, Slides- K-Nearest Neighbours, Population Denstiy, Library Size, GDP
+- Chin Kian Hwee - Linear Regression, GDP Slides- Linear Regression, Conclusion
 
 ## Problem Definition
 
-- Are we able to predict if a movie is good (rating above 7.2) based on its attributes?
-- Which model would be the best to predict it?
+- How are the prices of various Netflix subscriptions determined in a country?
+- Are we able to predict the prices with just GDP & Population Density?
 
 ## Models Used
 
@@ -26,32 +26,27 @@ This is a Mini-Project for SC1015  which focuses on netflix & the price of diffe
 
 ## Conclusion
 
-- Popularity and budget have low linear correlation value with ratings (watch out for bandwagons 🤣)
-- Popularity of the casts and crews have higher linear correlation value with ratings
-- Resampling imbalanced data improved model performance especially on the minority class
-- Logistic Regression did not perform well with non-linearly correlated variables
-- Neural Networks along with SMOTEENN resampling method consistently did well in predicting good movies after 100 training attempts (around 72% accuracy, 70% recall)
-- Yes, it is possible to predict if a movie is good with acceptable amount of accuracy and recall
+- Library Size & Population Density has an extremely low correleation with netflix prices
+- GDP per capita has a heavy influence on pricing of Netflix Subscriptions
+- Regession only able to predict to a certain extent with low accuracy due to many other factors affecting the pricing
+- The more premium the subscription plan, the higher correleation it has to the country's GDP per capita
+- Businesses that operate internationally do solely depend on income of the country but many other factors such as taxes, government or competition
 
 ## What did we learn from this project?
 
-- Handling imbalanced datasets using resampling methods and imblearn package
-- Neural Networks, Keras and Tensorflow
-- Logistic Regression from sklearn
-- API Usage
-- Other packages such as tqdm, json, requests
-- Collaborating using GitHub
-- Concepts about Precision, Recall, and F1 Score
+- Efficient ways to clean data and export out csv
+- K-Nearest Neighbours
+- Ridge Regression & Linear Regression
+- The concept behind purchasing power parity & international business pricing
+- Using Github
+- Data Exploration
 
 ## References
 
-- <https://developers.themoviedb.org/3/getting-started>
-- <https://www.free-powerpoint-templates-design.com/old-style-movie-projector-powerpoint-templates/>
-- <https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets>
-- <https://alexlenail.me/NN-SVG/index.html>
-- <https://www.kdnuggets.com/2016/08/learning-from-imbalanced-classes.html/2>
-- <https://arxiv.org/pdf/1608.06048.pdf>
-- <https://machinelearningmastery.com/tutorial-first-neural-network-python-keras/>
-- <https://towardsdatascience.com/derivative-of-the-sigmoid-function-536880cf918e>
-- <https://www.researchgate.net/figure/Calculation-of-Precision-Recall-and-Accuracy-in-the-confusion-matrix_fig3_336402347>
-- <https://medium.com/analytics-vidhya/confusion-matrix-accuracy-precision-recall-f1-score-ade299cf63cd>
+- <https://www.analyticsvidhya.com/blog/2018/08/k-nearest-neighbor-introduction-regression-python/>
+- <https://towardsdatascience.com/k-nearest-neighbors-knn-how-to-make-quality-predictions-with-supervised-learning-d5d2f326c3c2>
+- <https://medium.com/@kbrook10/day-11-machine-learning-using-knn-k-nearest-neighbors-with-scikit-learn-350c3a1402e6>
+- <https://www.kaggle.com/datasets/prasertk/netflix-subscription-price-in-different-countries?select=netflix+price+in+different+countries.csv>
+- <https://www.kaggle.com/datasets/tanuprabhu/population-by-country-2020>
+- <https://www.kaggle.com/datasets/frankmollard/income-by-country>
+- <https://www.investopedia.com/updates/purchasing-power-parity-ppp/>
